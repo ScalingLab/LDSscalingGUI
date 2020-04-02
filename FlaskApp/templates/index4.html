@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Python Flask Bucket List App</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container" style="text-align:center;">
+
+
+        <h1>Seleziona la variabile per grafico 'predicted' </h1>
+        <button class=" btn btn-default" style="width:90px;", onclick="javascript:window.location.href='{{url_for('predicted', var='KO')}}'"> KO</button>
+        <br>
+        <button class=" btn btn-default" style="width:90px;", onclick="javascript:window.location.href='{{url_for('predicted', var='Rate')}}'"> Rate</button>
+        <br>
+        <button class=" btn btn-default" style="width:90px;", onclick="javascript:window.location.href='{{url_for('predicted', var='RT')}}'"> RT</button>
+        <br>
+        <button class=" btn btn-default" style="width:90px;", onclick="javascript:window.location.href='{{url_for('predictedMAR')}}'"> MAR</button>
+        <br>
+        <br>
+        <button style="background-color:#ffa07a;" class=" btn btn-default"  onclick="javascript:window.location.href='/tipo'" > Cambia Tipo</button>
+        <button style="background-color:#ffa07a;" class=" btn btn-default"  onclick="javascript:window.location.href='/'" > Cambia Mixture</button>
+
+
+        <footer class="footer">
+            <p>&copy; Company 2020</p>
+        </footer>
+
+    </div>
+</body>
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+<title>Immagine</title>
+</head>
+<body>
+    <div id="element1">
+        <img src="{{ url_for('pMAR') }}" alt="Image">
+    </div>
+    <br>
+    <br>
+    <button style="background-color:#ffa07a;" class=" btn btn-default"  onclick="javascript:window.location.href='/pred'" > Cambia Variabile</button>
+    <button style="background-color:#ffa07a;" class=" btn btn-default"  onclick="javascript:window.location.href='/tipo'" > Cambia Tipo</button>
+    <button style="background-color:#ffa07a;" class=" btn btn-default"  onclick="javascript:window.location.href='/'" > Cambia Mixture</button>
+</body>
+</html>
